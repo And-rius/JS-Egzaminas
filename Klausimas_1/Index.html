@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <header>
+      Weight Converter
+    </header>
+    <form name="convert">
+      <label>Kilograms:</label>
+      <input id="weight" type="number" placeholder="Enter weight" />
+      <input id="submit-btn" value="Calculate" onclick="weightConvert()" />
+    </form>
+    <div>Pounds: <span id="output_pounds"></span> lb</p>
+    <div>Grams: <span id="output_grams"></span> g</p>
+    <div>Ounces: <span id="output_ounces"></span> oz</p>
+    <br>
+    <hr>
+    <footer>
+      &#169 by Andrius
+    </footer>
+  </body>
+</html>
