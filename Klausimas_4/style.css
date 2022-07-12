@@ -27,3 +27,17 @@
   margin-top: 50px;
   color: #333;
 }
+
+.car-card {
+    display: flex;
+    
+}
+.car-card {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.car-brand {
+  margin: 10px;
+  margin: 5px;
+}
